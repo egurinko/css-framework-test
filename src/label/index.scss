@@ -1,0 +1,60 @@
+.abukuma-Badge {
+  display: inline-flex;
+  vertical-align: middle;
+  position: relative;
+
+  padding: 0 7px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  white-space: nowrap;
+
+  border-radius: 4px;
+  border: 1px solid transparent;
+
+  background: #0C6993;
+  color: #FFFFFF;
+
+  cursor: default;
+  &:hover {
+    text-decoration: none;
+  }
+
+  // /* Size */
+  &--small {
+    padding-right: 7px;
+    padding-left: 7px;
+    line-height: 18px;
+  }
+
+  &--large {
+    padding-right: 10px;
+    padding-left: 10px;
+    line-height: 22px;
+  }
+
+  // /* Color */
+  &--primary {
+    background: #0C6993;
+    color: #FFFFFF;
+  }
+
+  &--secondary {
+    background: #FFFFFF;
+    border-color: #0C6993;
+    color: #0C6993;
+  }
+
+  &--completed {
+    background: #4E5B61;
+    color: #FFFFFF;
+  }
+
+  &--action {
+    background: #FFBCA0;
+  }
+
+  &--tertiary {
+    background: #E0F2F7;
+  }
+}
